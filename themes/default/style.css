@@ -13,7 +13,7 @@ a:hover{color:#006231}
 .search span{font-size:22px;font-weight:700;color:#006231}
 .mtop {display: none !important;background: rgba(0, 0, 0, 0) url("images/hotline.png") no-repeat scroll 0 8px;display: block;float: right;font-size: 15px;height: 45px;padding-top: 16px;text-align: right;width: 26%;}
 .mtop b a{float: left; margin-left: 54px; color: rgb(255, 255, 255); font-size: 24px;}
-.menu{background:#99ca3b;border-bottom:3px solid #006231}
+.menu{background:#4a90e2;border-bottom:3px solid #2a578c}
 #home{    padding-bottom: 0px !important;}
 .slide{width:100%}
 .boxtitle h2 {
