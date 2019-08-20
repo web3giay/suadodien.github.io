@@ -12,7 +12,7 @@ h3{color:#006231;font-size:16px}
 .search input[type=text]{border:1px solid #999;padding:5px;width:300px;border-radius:3px;color:#444;outline:none}
 .search input[type=submit]{background-color:#da251c;border:0;color:#fff;padding:5px 10px;border-radius:3px;border:1px solid red}
 .mtop{float:right;width:26%;text-align:right;display:none;padding-top:16px}
-.menu{background:#99ca3b;border-bottom:3px solid #006231}
+.menu{background:#4a90e2;border-bottom:3px solid #2a578c}
 #home{padding-bottom:20px}
 .slide{width:100%}
 .ads{width:98%;background-color:#F3F3F3;margin:auto;text-align:center}
