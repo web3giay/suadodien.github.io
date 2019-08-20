@@ -1,0 +1,188 @@
+﻿@charset "utf-8";
+*{text-decoration:none}
+body{margin:0;padding:0;font-size:14px;color:#333;
+}
+#page{max-width:1100px;margin:auto;background:#fff}
+a{color:#333;text-decoration:none}
+a:hover{color:#006231}
+.cover{max-width:1080px;margin:auto;width:100%;}
+.logo{width:22%;float:left;display: none;}
+.logo img{max-width:100%;height:68px}
+.search{width:50%;float:left;padding-top:0px;display:block;padding-left:10px;display:block}
+.search p{padding:0;margin:0;font-size:18px;color:red}
+.search span{font-size:22px;font-weight:700;color:#006231}
+.mtop {display: none !important;background: rgba(0, 0, 0, 0) url("images/hotline.png") no-repeat scroll 0 8px;display: block;float: right;font-size: 15px;height: 45px;padding-top: 16px;text-align: right;width: 26%;}
+.mtop b a{float: left; margin-left: 54px; color: rgb(255, 255, 255); font-size: 24px;}
+.menu{background:#99ca3b;border-bottom:3px solid #006231}
+#home{    padding-bottom: 0px !important;}
+.slide{width:100%}
+.boxtitle h2 {
+    padding: 0px;
+    margin: 10px;
+}
+.boxtitle h2{text-transform:uppercase;font-size:18px;line-height:35px}
+.boxtitle a{border-bottom:3px solid #006231;color:#99ca3b}
+.listsing{border-bottom:1px solid #eee;height:48px}
+.boxproduct{width:100%}
+.boxlist{width:33.3333%;float:left}
+.item1{border:1px solid #ccc;margin:10px}
+.item1 img {
+	width: 98% !important;
+    padding: 1px 2px;
+  
+}
+.boxtitle h2 {
+    font-size: 22px;
+    font-weight: 900;
+}
+.search img {
+	width: 1100px !important;
+    position: relative;
+    height: 102px !important;
+    right: 20px;
+}
+.item1 .name{font-size:14px;font-weight:700;text-transform:uppercase;color:#006231;padding:2%}
+.item1 h3{padding:0;margin:0;padding:0 2%}
+.item1 p{padding-left:2%;padding-right:2%}
+.boxlist ul{list-style:none}
+.boxlist ul li a{display:block;position:relative;padding:14px 10px 14px 38px;font-size:14px;color:#222}
+.boxlist ul li a:hover{color:#da251c}
+.icon-play-item{background-image:url(images/icon-nhac.html);width:16px;height:16px;display:block;position:absolute;left:10px;top:15px}
+.product{
+	width: 24%;
+	  float: left;
+    padding: 0px 4px;
+}
+.product .thumb img{max-width:100%}
+.product .thumb:hover{opacity:.6}
+.product .info {padding: 10px 0;text-align: center;text-transform: uppercase;font-size: 17px;
+    font-weight: 900;}
+.product2{
+	width: 32.7%;
+    float: left;
+    padding: 0 2px;
+}
+.infopro > p:nth-child(2){
+	display: none;
+}
+.infopro > p:nth-child(3){
+	display: none;
+}
+.product2 .thumb img {
+    max-width: 100%;
+    border: 1px solid #d7d7d7;
+    height: 215px !important;
+    max-width: 100%;
+    width: 100% !important;
+    object-fit: contain;
+}
+.newhome2 .titlen {
+    text-align: center;
+}
+.product2 .thumb:hover{opacity:.6}
+.product3{width:30.18%;float:left;padding:0 10px;padding-bottom:10px}
+.product3 .thumb img {border: 1px solid #d7d7d7;height: 195px !important;max-width: 100%;object-fit: cover;}
+.product3 .thumb:hover{opacity:.6}
+.product3 .info{padding:0px 0;text-align:left}
+.product3 .info h2{ font-size:13px;padding:0px}
+.price{ font-size:15px; color:red;text-align: center;}
+
+
+.imagepro{width:49%;float:left}
+.infopro{width:49%;float:right}
+.infopro h1{text-align:left;padding:0;margin:0;padding-bottom:6px}
+.infopro p{margin:0;padding:0;line-height:26px}
+.left{width:69%;float:left;text-align:justify;padding:0;padding-bottom:10px;line-height:20px;}
+.view img{max-width:100%!important}
+.view h1 {color: #006231;font-size: 22px;}
+.view h2{font-size:19px;color:#006231}
+.view h3{font-size:16px;color:#006231}
+.view h4{font-size:14px;color:#006231}
+.view a{color:#0073b5}
+.right{width:30%;float:right;padding:0;padding-top:10px}
+.boxright{}
+.boxright .title{background:#99ca3b;color:#FFF;font-size:15px;padding:10px}
+.boxright .content{border:1px solid #e1e1e1;border-top:none;margin:0}
+.boxright .content p{padding:0;margin:0;padding:10px}
+.boxright ul{list-style:none;margin:0;padding:0}
+.boxright ul li{border-top:1px solid #e1e1e1;padding:8px 10px}
+.newlist{padding:8px 0}
+.newlist h3{margin:0;padding:0}
+.newlist h3 a{text-decoration:none;color:#e83224}
+.newlist h3 a:hover{text-decoration:underline}
+.newlist .img{width:28%;float:left}
+.newlist .img img{max-width:100%}
+.newlist .des{width:69%;float:right;color:#333}
+.newlist .des a{font-weight:700}
+.newlist .des p{display:block}
+.newhome{padding:10px}
+.newhome .image{width:36%;float:left}
+.newhome .title{width:60%;float:right;font-weight:700}
+.newhome2{padding:10px}
+.newhome2 .image img{width:100%}
+.bxhtitle{padding:10px}
+.bxhtitle h3{color:#fff}
+.top1{border-bottom:1px solid #ececec;border-top:1px solid #ececec}
+.top1 .thumb{display:block;float:left;margin-right:10px;position:relative}
+.r_number01{position:absolute;left:0;bottom:0;background:#0ba14b;color:#fff;padding:5px 6px;display:block;font-size:20px}
+.top1 h4{padding-top:20px;font-size:16px;font-weight:400}
+.artist a{color:#505050!important;font-size:13px}
+.fl-header-body{padding:10px 20px}
+.rank-list{margin:0;padding:0}
+.rank-list li{position:relative;border-bottom:1px solid #eee;padding:16px 0}
+.rank-list li .r_number{position:absolute;font-size:22px;color:#505050;top:26px}
+.rank-list li h4 a{font-weight:400;padding:0}
+.over-text{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.rank-list li a{padding:0!important}
+.org-color{color:#f60!important}
+.rank-list li .l_if{padding-left:43px}
+.iconn{width:100%;border-top:2px solid #006231;display:none}
+.ft{width:25%;float:left;padding-bottom:10px}
+.name-icon{font-size:38px!important;color:#99ca3b;float:left;vertical-align:top;margin-right:10px}
+.description h4{color:#006231;font-size:14px;text-transform:uppercase;margin:0;font-weight:700;text-align:left}
+.description p{font-size:14px;line-height:20px;margin:0}
+#footer{background-color:#99ca3b;color:silver;overflow:hidden;clear:both}
+.boxfooter{width:33%;float:left;padding:0}
+.ftright{width:34%;float:left}
+.boxfooter .title{padding-bottom:10px;color:#f0f0f1;display: none;}
+.boxfooter ul{margin:0;padding:0;list-style:none}
+.boxfooter ul li a{color:silver}
+.boxfooter ul li a:hover{color:#006231}
+.contentft a{color:silver}
+.contentft a:hover{color:#006231}
+.ftinfo{border-top:1px solid silver;margin-top:10px;padding-top:10px}
+
+.newhome div.image a img {border: 1px solid #d7d7d7;height: auto !important;width: 330px !important;}
+.newhome2 .image img {    height: auto !important;
+    object-fit: cover;
+    width: 100% !important;}
+
+.boxright div.content div.newhome2 div.titlen a {margin-top: 13px;text-transform: uppercase;text-align: center;}
+
+.product .thumb img {
+	border: 1px solid #d7d7d7;
+    height: 216px !important;
+    width: 100% !important;
+    padding: 3px 4px;
+}
+.item1 p {line-height: 22px;padding-left: 2%;padding-right: 2%;}
+.newlist .img img {height: auto !important;max-width: 100%;}
+span#hotline {
+    font-size: 16px;
+    background: #d82c2c;
+    border-radius: 8px 8px;
+    font-weight: 600;
+    color: #fff;
+    position: absolute;
+    top: 44px;
+    padding: 8px 32px;
+    left: 89px;
+    min-width: 117px;
+    z-index: 999999999;
+}
+.boxright iframe {
+    display: none;
+}
+.phone-dc {
+    position: relative;
+}
